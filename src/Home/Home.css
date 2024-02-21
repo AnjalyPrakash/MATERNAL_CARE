@@ -1,0 +1,7 @@
+.bg-image{
+    background-image: url('https://theindianpractitioner.com/wp-content/uploads/2022/11/MNCU-inaugurated-at-Govt-Maternity-Hospital-in-Tirupati.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
