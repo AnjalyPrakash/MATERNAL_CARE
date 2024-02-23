@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Home/Home.css'
-import logo from '../Images/img1.png'
+import logo from '../Images/logo.png'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Link } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -31,7 +31,6 @@ function Home() {
           <Link to={'/login'} className=' d-flex justify-content-center align-items-center' style={{ textDecoration: 'none' }}><button className='btn border text-light w-100' >Get Started</button></Link>
         </div>
       </div>
-
       <Container>
         <Row>
           <h2 className='text-center mt-4 mb-4'>Our Services</h2>
