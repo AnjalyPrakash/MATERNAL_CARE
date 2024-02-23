@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Home/Home.css'
-import logo from '../Images/logo.png'
+import logo from '../Images/img1.png'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Link } from 'react-router-dom';
 
