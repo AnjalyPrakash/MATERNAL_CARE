@@ -77,11 +77,13 @@ function Home() {
           <Col md={6}>
               <img src="https://images.pexels.com/photos/5424696/pexels-photo-5424696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{height:'300px',width:'100%'}} alt="" />
           </Col>
-          <Col md={6} className='mt-5'>
-            <h3 className='fw-bold'>Contact Us</h3>
-            <h5 className='mt-3 '><i class="fa-solid fa-location-dot me-4" style={{color:'rgb(26, 87, 109)'}}></i>K C Tower, CSEZ, Seaport - Airport Rd near , <br /> <span className='ms-5'>Kakkanad, Ernakulam, Kerala 682037</span></h5>
-            <h5 className='mt-3 '><i class="fa-solid fa-phone me-4" style={{color:'rgb(26, 87, 109)'}}></i>+91 8921951119</h5>
-            <h5 className='mt-3 '><i class="fa-solid fa-envelope me-4" style={{color:'rgb(26, 87, 109)'}}></i>maternitycare@gmail.com</h5>
+          <Col md={6} className='mt-5 '>
+            <h3 className='fw-bold text-center'>Contact Us</h3>
+            <div className='ms-5'>
+              <h5 className='mt-3 '><i class="fa-solid fa-location-dot me-4" style={{color:'rgb(26, 87, 109)'}}></i>K C Tower, CSEZ, Seaport - Airport Rd near , <br /> <span className='ms-5'>Kakkanad, Ernakulam, Kerala 682037</span></h5>
+              <h5 className='mt-3 '><i class="fa-solid fa-phone me-4" style={{color:'rgb(26, 87, 109)'}}></i>+91 8921951119</h5>
+              <h5 className='mt-3 '><i class="fa-solid fa-envelope me-4" style={{color:'rgb(26, 87, 109)'}}></i>maternitycare@gmail.com</h5>
+            </div>
           </Col>
         </Row>
       </Container>
