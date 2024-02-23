@@ -1,3 +1,8 @@
 .footer{
-    background-color: rgb(50, 112, 133);
+    background-color: rgb(26, 87, 109);
+    color: white;
+}
+
+.head{
+    font-family: "Protest Riot", sans-serif;
 }
