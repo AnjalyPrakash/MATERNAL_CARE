@@ -22,13 +22,13 @@ function Home() {
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item href="">Service Provider</Dropdown.Item>
-              <Dropdown.Item href=''>Client</Dropdown.Item>
+              <Dropdown.Item href='/client-register'>Client</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </div>
         <div className='d-flex justify-content-center align-items-center flex-column mt-5' >
           <h1 className='text-light  fw-bold mt-5' >Welcome to the wonder of motherhood.</h1>
-          <Link to={'/login'} className=' d-flex justify-content-center align-items-center' style={{ textDecoration: 'none' }}><button className='btn border text-light w-100' >Get Started</button></Link>
+          <Link to={'/login'} className=' d-flex justify-content-center align-items-center' style={{ textDecoration: 'none',backgroundColor:'rgba(18, 14, 14, 0.566)' }}><button className='btn border text-light w-100' >Get Started</button></Link>
         </div>
       </div>
 
@@ -74,8 +74,11 @@ function Home() {
 
       <Container className='mt-5'>
         <Row>
-          <Col md={6}>
+          <Col md={3}>
               <img src="https://images.pexels.com/photos/5424696/pexels-photo-5424696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{height:'300px',width:'100%'}} alt="" />
+          </Col>
+          <Col md={3} className='mt-5'>
+              <img src="https://images.pexels.com/photos/7282475/pexels-photo-7282475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{height:'300px',width:'100%'}} alt="" />
           </Col>
           <Col md={6} className='mt-5 '>
             <h3 className='fw-bold text-center'>Contact Us</h3>

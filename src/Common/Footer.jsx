@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import logo from '../Images/logo.png'
 import '../Common/Footer.css'
 import { Link } from 'react-router-dom'
 
@@ -14,12 +13,12 @@ function Footer() {
                         <h3 className='head text-center'>Maternal Care</h3>
                         <p className='text-center'>Lorem, ipsum dolor sit amet consectetur um, blanditiis porro tempora, quae odit inventore commodi temporibus laboriosam dolorem, obcaecati dolor. Lorem ipsum dolor sit amet consectetur adip.tatibus eius esse.</p>
                     </Col>
-                    <Col md={4} className='mt-4 text-center'>
+                    <Col md={4} className='mt-5  text-center'>
                         <h4>Links</h4>
                         <Link to={'/'} style={{textDecoration:'none',color:'white'}}><p>Home</p></Link>
                         <Link to={'/login'} style={{textDecoration:'none',color:'white'}}><p>Login</p></Link>
                     </Col>
-                    <Col md={4} className='mt-4 text-center mb-5'>
+                    <Col md={4} className='mt-5  text-center mb-5'>
                         <h4>Contact Us</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. alias ad optio autem deleniti expedita.</p>
                         <hr />
