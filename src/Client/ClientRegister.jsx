@@ -1,10 +1,13 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
+import logo from '../Images/logo.png'
+import { Link } from 'react-router-dom';
 
 
 function ClientRegister() {
     return (
         <>
+        {/* <Link to={'/'}><img src={logo} style={{ height: '130px', width: '130px' }} alt="no image" /></Link> */}
             <div className='container d-flex justify-content-center align-items-center shadow flex-column mt-5'>
                 <Row>
                     <h3 className='text-center mt-3 mb-3'>Client Registration</h3>

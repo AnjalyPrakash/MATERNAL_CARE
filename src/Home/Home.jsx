@@ -14,7 +14,7 @@ function Home() {
     <>
       <div className='bg-image'>
         <div className='d-flex '>
-          <img src={logo} style={{ height: '150px', width: '150px' }} alt="no image" />
+          <Link to={'/'}><img src={logo} style={{ height: '150px', width: '150px' }} alt="no image" /></Link>
           {/* <h1 className='ms-auto me-5 mt-3 text-warning'><i class="fa-solid fa-circle-user"></i></h1>     */}
           <Dropdown className='ms-auto me-5 mt-3' style={{ height: '50px', width: '50px', borderRadius: '25px' }}>
             <Dropdown.Toggle className='mt-2 me-2' style={{ backgroundColor: ' rgba(0, 0, 0, 0)', height: '50px', width: '50px', borderRadius: '25px', borderColor: 'rgba(0, 0, 0, 0)' }} id="dropdown-basic" >
