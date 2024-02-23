@@ -35,7 +35,7 @@ function Home() {
       <div className='container mt-5 mb-4'>
           <Row>
             <Col md={6}>
-              <img src="https://images.pexels.com/photos/7282407/pexels-photo-7282407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{height:'360px',width:'100%'}} alt="" />
+              <img src="https://images.pexels.com/photos/3398674/pexels-photo-3398674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{height:'360px',width:'100%'}} alt="no image" />
             </Col>
             <Col md={6}>
               <h3 className='text-center fw-bold'>About Us</h3>
