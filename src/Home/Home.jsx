@@ -31,6 +31,21 @@ function Home() {
           <Link to={'/login'} className=' d-flex justify-content-center align-items-center' style={{ textDecoration: 'none' }}><button className='btn border text-light w-100' >Get Started</button></Link>
         </div>
       </div>
+
+      <div className='container mt-5 mb-4'>
+          <Row>
+            <Col md={6}>
+              <img src="https://images.pexels.com/photos/7282407/pexels-photo-7282407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{height:'360px',width:'100%'}} alt="" />
+            </Col>
+            <Col md={6}>
+              <h3 className='text-center fw-bold'>About Us</h3>
+              <hr />
+              <p className='text-center mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quisquam rerum doloremque molestiae consequatur sint harum possimus cupiditate aliquam excepturi? Ea enim non suscipit quas at odit, doloribus minima numquam! <br />Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus in fugit maxime enim, corrupti quae temporibus voluptate tenetur? Quia dolor minus quibusdam enim sed provident eveniet possimus vel id repellendus. <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur eaque nulla voluptatibus obcaecati vel cumque libero nobis quos, omnis explicabo excepturi molestias laborum asperiores, nihil quia veniam labore pariatur?</p>
+              <h4 className='text-center fw-bold'>Personalized maternity care,<br /> tailored to your needs.</h4>
+            </Col>
+          </Row>
+      </div>
+
       <Container>
         <Row>
           <h2 className='text-center mt-4 mb-4'>Our Services</h2>
@@ -56,6 +71,8 @@ function Home() {
           </Col>
         </Row>
       </Container>
+
+
     </>
   )
 }
