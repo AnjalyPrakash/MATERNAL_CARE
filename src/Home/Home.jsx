@@ -36,7 +36,7 @@ function Home() {
       <div className='container mt-5 mb-5'>
         <Row>
           <Col md={6}>
-            <img src="https://images.pexels.com/photos/3398674/pexels-photo-3398674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '390px', width: '100%' }} alt="no image" />
+            <img src="https://images.pexels.com/photos/3398674/pexels-photo-3398674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '390px', width: '100%' ,borderRadius:'40px' }} alt="no image" />
           </Col>
           <Col md={6}>
             <h2 className='text-center fw-bold mt-3'>About Us</h2>
@@ -57,7 +57,7 @@ function Home() {
           </Col>
           <Col md={3} className='text-center mt-3'>
             <img src={img7} style={{ height: '80px ', width: '90px' }} alt="no image" />
-            <h4>Therapy</h4>
+            <h4>Yoga Therapy</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.acm libero.</p>
           </Col>
           <Col md={3} className='text-center mt-3'>
@@ -78,10 +78,10 @@ function Home() {
       <Container className='mt-5'>
         <Row>
           <Col md={3}>
-            <img src="https://images.pexels.com/photos/5424696/pexels-photo-5424696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%' }} alt="" />
+            <img src="https://images.pexels.com/photos/5424696/pexels-photo-5424696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%',borderRadius:'40px' }} alt="" />
           </Col>
-          <Col md={3} className='mt-5'>
-            <img src="https://images.pexels.com/photos/7282475/pexels-photo-7282475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%' }} alt="" />
+          <Col md={3} className='mt-5 '>
+            <img src="https://images.pexels.com/photos/7282475/pexels-photo-7282475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%',borderRadius:'40px' }} alt="" />
           </Col>
           <Col md={6} className='mt-5 '>
             <h2 className='fw-bold text-center'>Contact Us</h2>
