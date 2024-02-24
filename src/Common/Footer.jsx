@@ -29,7 +29,9 @@ function Footer() {
                         <i class="fa-solid fa-location-dot me-4 fa-2x"></i>
                         </div>
                     </Col>
+                    <p className='text-center'>Copyright © 2024. All rights Reserved</p>
                 </Row>
+               
             </Container>
         </div>
     </>
