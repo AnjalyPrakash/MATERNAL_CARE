@@ -55,12 +55,7 @@ function Login() {
     </Row>
   </div>
 </Row>
-
-
-   
-    
-
-    </>
+</>
   )
 }
 
