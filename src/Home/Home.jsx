@@ -98,8 +98,8 @@ function Home() {
       <Container className='mt-5'>
         <Row >
           <h2 className='text-center mt-3 mb-5'>Reviews</h2>
-          <Carousel>
-            <Carousel.Item>
+          <Carousel >
+            <Carousel.Item >
             <Col md={12} className='d-flex justify-content-center align-items-center flex-column'>
             <img src="https://images.pexels.com/photos/3319310/pexels-photo-3319310.jpeg" style={{ height: '100px', width: '100px', borderRadius: '50px' }} alt="no image" />
             <p className='text-center mt-3'>Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elidit libero non rerum laboriosam molestias sr sit amet consectetur adipisicing elit. Nulla at saepe, beatae o maxime quae cum impedit!</p>
