@@ -7,7 +7,7 @@ import google from '../Images/google2.png'
 function Login() {
   return (
     <>
-        <Row>
+  <Row>
   <div className='login_page' style={{ width: '100%', minHeight: '100vh' }}>
     <Row className='mt-5'>
       <Col lg={1}></Col>
