@@ -8,7 +8,7 @@ function ClientRegister() {
         <Row >
             <Col lg={4}></Col>
             <Col lg={8} className='mt-5 d-flex justify-content-center align-items-center'>
-                <div className='register_div'   style={{width:'850px',height:'600px',backgroundColor:'yellow',borderRadius:'30%'}}>
+                <div className='register_div rounded'   style={{width:'700px',height:'500px',backgroundColor:'yellow'}}>
                     
 
                 </div>
