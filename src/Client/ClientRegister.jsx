@@ -6,10 +6,10 @@ function ClientRegister() {
         <>
        <div className='client_div' style={{width:'100%',height:'100vh'}}>
         <Row >
-            <Col md={4}></Col>
-            <Col md={8} className='mt-3 d-flex justify-content-center align-items-center flex-column'>
+            <Col md={7}></Col>
+            <Col md={5} className='mt-3 d-flex justify-content-center align-items-center flex-column'>
                 <div className='register_div mt-5 d-flex justify-content-center align-items-center flex-column'>
-                    <h3>Client Registration</h3>
+                    <h3 className='text-white'>Client Registration</h3>
                     <input type="text" placeholder='Username' style={{borderRadius:'50px'}} className='form-control mb-3 w-50 mt-5'/>
                     <input type="email" placeholder='Email Address' style={{borderRadius:'50px'}} className='form-control mb-3 w-50 mt-2'/>
                     <input type="password" placeholder='Password' style={{borderRadius:'50px'}} className='form-control mb-3 w-50 mt-2'/>
