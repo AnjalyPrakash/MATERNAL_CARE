@@ -1,29 +1,22 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap';
-import logo from '../Images/logo.png'
-import { Link } from 'react-router-dom';
-
-
+import '../Client/ClientRegister.css'
+import { Col, Row } from 'react-bootstrap'
 function ClientRegister() {
     return (
         <>
-        {/* <Link to={'/'}><img src={logo} style={{ height: '130px', width: '130px' }} alt="no image" /></Link> */}
-            <div className='container d-flex justify-content-center align-items-center shadow flex-column mt-5'>
-                <Row>
-                    <h3 className='text-center mt-3 mb-3'>Client Registration</h3>
-                    <Col md={6}>
-                        <img src="https://st4.depositphotos.com/31915596/38727/v/450/depositphotos_387279966-stock-illustration-mom-baby-heart-love-logo.jpg" style={{height:'400px'}} alt="no image" />
-                    </Col>
-                    <Col md={6} className='mt-5'>
-                        <input type="text" placeholder='Username' className='mb-3 form-control' />
-                        <input type="email" placeholder='Email' className='mb-3 form-control' />
-                        <input type="password" placeholder='Password' className='mb-3 form-control' />
-                        <input type="tel" placeholder='Phone Number' className='mb-3 form-control' />
-                        <textarea placeholder='Address' cols="100" className='mb-3 form-control' rows="2"></textarea>
-                    </Col>
-                </Row>
-                <button className='w-50 mb-4 btn btn-danger' style={{borderRadius:'50px'}}>Register</button>
-            </div >
+       <div className='client_div' style={{width:'100%',height:'100vh'}}>
+        <Row >
+            <Col lg={4}></Col>
+            <Col lg={8} className='mt-5 d-flex justify-content-center align-items-center'>
+                <div className='register_div'   style={{width:'850px',height:'600px',backgroundColor:'yellow',borderRadius:'30%'}}>
+                    
+
+                </div>
+            </Col>
+        </Row>
+
+       </div>
+           
         </>
     )
 }
