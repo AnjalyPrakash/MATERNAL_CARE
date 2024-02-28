@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Login/Login.css'
 import { Col, Row } from 'react-bootstrap'
-import logo from '../Images/img3.png'
 import TextField from '@mui/material/TextField';
 import google from '../Images/google2.png'
 
