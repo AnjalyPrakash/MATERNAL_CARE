@@ -5,6 +5,9 @@
 }
 
 .register_div{
-    background-image: linear-gradient(to right, rgb(21, 171, 166) , rgb(147, 53, 148));
+    background-image: linear-gradient(to right, rgb(60, 123, 141) , rgb(46, 150, 171));
+    height: 600px;
+    width: 650px;
+    border-radius: 50px;
 }
 
