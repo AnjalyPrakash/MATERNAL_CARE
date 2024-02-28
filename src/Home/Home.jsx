@@ -36,12 +36,16 @@ function Home() {
       <div className='container mt-5 mb-5'>
         <Row>
           <Col md={6}>
-            <img src="https://images.pexels.com/photos/3398674/pexels-photo-3398674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '390px', width: '100%' ,borderRadius:'40px' }} alt="no image" />
+            <img src="https://images.pexels.com/photos/3398674/pexels-photo-3398674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '400px', width: '100%', borderRadius: '40px' }} alt="no image" />
           </Col>
           <Col md={6}>
             <h2 className='text-center fw-bold mt-3'>About Us</h2>
             <hr />
-            <p className='text-center mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quisquam rerum doloremque molestiae consequatur sint harum possimus cupiditate aliquam excepturi? Ea enim non suscipit quas at odit, doloribus minima numquam! <br />Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus in fugit maxime enim, corrupti quae temporibus voluptate tenetur? Quia dolor minus quibusdam enim sed provident eveniet possimus vel id repellendus. <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur eaque nulla voluptatibus obcaecati vel cumque libero nobis quos, omnis explicabo excepturi molestias laborum asperiores, nihil quia veniam labore pariatur?</p>
+            <p className='text-center mt-3'>The birth of your baby is one of the most exciting events in your life. From the miracle of the first heartbeat to the exhilarating moment of the first breath, a new love story is beginning! Whether you are expecting or have already welcomed your little one into the world, Janika will walk you through this beautiful journey. <br />
+
+              Ayurveda says, “If a pregnant woman is taken care of, as advised, she will give birth to a child who does not have any diseases—a healthy, physically strong, radiant and well-nourished baby.” We at Janika believe every mother and baby deserves the best care possible – before, during, and after a newborn enters the world. We have designed services and solutions not only for the physical but also the mental well-being of the mother.
+
+              You will have questions about how and why you should care for yourself during your pregnancy; we are here to answer you.</p>
             <h4 className='text-center fw-bold'>Personalized maternity care,<br /> tailored to your needs.</h4>
           </Col>
         </Row>
@@ -53,22 +57,22 @@ function Home() {
           <Col md={3} className='text-center mt-3'>
             <img src={img2} style={{ height: '80px ', width: '80px' }} alt="no image" />
             <h4>Pre Delivery Care</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.acm libero.</p>
+            <p>All aspects that could influence the health and development of a baby are guided by us, and we at Janika will be there to help you welcome the new addition to your life. </p>
           </Col>
           <Col md={3} className='text-center mt-3'>
             <img src={img7} style={{ height: '80px ', width: '90px' }} alt="no image" />
             <h4>Yoga Therapy</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.acm libero.</p>
+            <p>Pregnancy may be one of the happiest phases in a woman’s life, but there is no denying that the stress and strains it puts a woman’s body through are immense.  Yoga is extremely beneficial and can help one recover from the effects of childbirth smoothly.</p>
           </Col>
           <Col md={3} className='text-center mt-3'>
             <img src={img5} style={{ height: '80px ', width: '80px' }} alt="no image" />
-            <h4>Doctor Checkup</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.acm libero.</p>
+            <h4>Doctors Support</h4>
+            <p>Motherhood is a wonderful phase in every women’s life, but it also comes with doubts and confusion about what to do what not to do, what is right and what is wrong. New moms through a lot of insecurities and stress during this time. That’s when Janika comes to the rescue.</p>
           </Col>
           <Col md={3} className='text-center mt-3'>
-          <img src={img1} style={{ height: '80px ', width: '80px' }} alt="no image" />
+            <img src={img1} style={{ height: '80px ', width: '80px' }} alt="no image" />
             <h4>Post Delivery Care</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.acm libero.</p>
+            <p>The premium package which gives the ultimate Ayurveda care for new moms and babies. Stimulates blood circulation, prevents postpartum hair fall, reshapes your body, and gives glow to your skin. A complete rejuvenating process.</p>
           </Col>
         </Row>
       </Container>
@@ -78,10 +82,10 @@ function Home() {
       <Container className='mt-5'>
         <Row>
           <Col md={3}>
-            <img src="https://images.pexels.com/photos/5424696/pexels-photo-5424696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%',borderRadius:'40px' }} alt="" />
+            <img src="https://images.pexels.com/photos/5424696/pexels-photo-5424696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%', borderRadius: '40px' }} alt="" />
           </Col>
           <Col md={3} className='mt-5 '>
-            <img src="https://images.pexels.com/photos/7282475/pexels-photo-7282475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%',borderRadius:'40px' }} alt="" />
+            <img src="https://images.pexels.com/photos/7282475/pexels-photo-7282475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '300px', width: '100%', borderRadius: '40px' }} alt="" />
           </Col>
           <Col md={6} className='mt-5 '>
             <h2 className='fw-bold text-center'>Contact Us</h2>
@@ -100,25 +104,26 @@ function Home() {
           <h2 className='text-center mt-3 mb-5'>Reviews</h2>
           <Carousel >
             <Carousel.Item >
-            <Col md={12} className='d-flex justify-content-center align-items-center flex-column'>
-            <img src="https://images.pexels.com/photos/3319310/pexels-photo-3319310.jpeg" style={{ height: '100px', width: '100px', borderRadius: '50px' }} alt="no image" />
-            <p className='text-center mt-3'>Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elidit libero non rerum laboriosam molestias sr sit amet consectetur adipisicing elit. Nulla at saepe, beatae o maxime quae cum impedit!</p>
-          </Col>
+              <Col md={12} className='d-flex justify-content-center align-items-center flex-column'>
+                <img src="https://images.pexels.com/photos/3319310/pexels-photo-3319310.jpeg" style={{ height: '100px', width: '100px', borderRadius: '50px' }} alt="no image" />
+                <p className='text-center mt-3'>My Therapists Bhavya was very gentle with baby and great for my massage well. She was very professional, experienced and followed hygiene protocol. I would recommend Janika for new born baby and mother massage.</p>
+              </Col>
             </Carousel.Item>
             <Carousel.Item>
-            <Col md={12} className='d-flex justify-content-center align-items-center flex-column'>
-            <img src="https://images.pexels.com/photos/7155244/pexels-photo-7155244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '100px', width: '100px', borderRadius: '50px' }} alt="no image" />
-            <p className='text-center mt-3'>Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elidit libero non rerum laboriosam molestias sit perferendis, est tempore? Placeat asperiores qui enim labore..</p>
-          </Col>
+              <Col md={12} className='d-flex justify-content-center align-items-center flex-column'>
+                <img src="https://images.pexels.com/photos/7155244/pexels-photo-7155244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '100px', width: '100px', borderRadius: '50px' }} alt="no image" />
+                <p className='text-center mt-3'>I am availing the service from Janika along with products they sent. The therapist who is assigned to me is very experienced one , Therapist Prabitha is very professional and also very good in giving treatment. I am loving all the pamper from Prabitha and Janika products she uses for therapy.</p>
+              </Col>
             </Carousel.Item>
             <Carousel.Item>
-            <Col md={12} className='d-flex justify-content-center align-items-center flex-column'>
-            <img src="https://images.pexels.com/photos/8359636/pexels-photo-8359636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '100px', width: '100px', borderRadius: '50px' }} alt="no image" />
-            <p className='text-center mt-3'>Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elidit libero non rerum laboriosam molestias sit perferendis, est tempore? Placeat asperiores qui enim labore..</p>
-          </Col>
+              <Col md={12} className='d-flex justify-content-center align-items-center flex-column'>
+                <img src="https://images.pexels.com/photos/8359636/pexels-photo-8359636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{ height: '100px', width: '100px', borderRadius: '50px' }} alt="no image" />
+                <p className='text-center mt-3'>I have used Janika Ayurveda services since pregnancy and postpartum. I had got 2 wonderful therapists Bindhu chechi and Anjali chechi. Both took really good care of me and my baby.
+                  Thankful to my therapists immensely.</p>
+              </Col>
             </Carousel.Item>
           </Carousel>
-          
+
         </Row>
 
       </Container>
