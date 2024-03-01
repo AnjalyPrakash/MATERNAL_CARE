@@ -42,7 +42,7 @@ function Login() {
                 </div>
                 <div className='d-flex justify-content-center align-items-center'>
                   <div className='google d-flex justify-content-evenly rounded' style={{ width: '75%', height: '50px', backgroundColor: '#db4437', color: 'white', cursor: 'pointer' }}>
-                    <img className='ms-2' src={google} style={{ width: '25px', height: '25px' }} alt="" />
+                    <img className='ms-2 mt-2' src={google} style={{ width: '25px', height: '25px' }} alt="" />
                     <h6 className='mt-2'>Sign in with Google</h6>
                   </div>
                 </div>
