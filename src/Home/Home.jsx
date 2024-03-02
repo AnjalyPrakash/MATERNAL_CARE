@@ -28,7 +28,7 @@ function Home() {
           </Dropdown>
         </div>
         <div className='d-flex justify-content-center align-items-center flex-column mt-5' >
-          <h1 className='text-light  fw-bold mt-5' >Welcome to the wonder of motherhood.</h1>
+          <h1 className='text-light  fw-bold mt-5' >Begin your child's journey with Us</h1>
           <Link to={'/login'} className=' d-flex justify-content-center align-items-center' style={{ textDecoration: 'none', backgroundColor: 'rgba(18, 14, 14, 0.566)' }}><button className='btn border text-light w-100' >Get Started <i class="fa-solid fa-right-to-bracket"></i></button></Link>
         </div>
       </div>
