@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import './AdminDashBoard.css'
 import Header from '../../Common/Header';
+
 
 
 function AdminDashBoard() {

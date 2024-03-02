@@ -3,7 +3,7 @@ import '../Common/Header.css'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Col, Row } from 'react-bootstrap';
-import '../Admindashboard/AdminDashBoard.css'
+import '../ADMIN/Admindashboard/AdminDashBoard.css'
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import '../Common/Header';
