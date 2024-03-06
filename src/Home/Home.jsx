@@ -22,7 +22,7 @@ function Home() {
               <h1 className=' text-secondary'><i class="fa-solid fa-circle-user"></i></h1>
             </Dropdown.Toggle>
             <Dropdown.Menu>
-              <Dropdown.Item href="">Service Provider</Dropdown.Item>
+              <Dropdown.Item href="/service-provider-register">Service Provider</Dropdown.Item>
               <Dropdown.Item href='/client-register'>Client</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

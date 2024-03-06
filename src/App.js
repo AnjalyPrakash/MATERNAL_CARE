@@ -5,6 +5,7 @@ import Home from './Home/Home';
 import Footer from './Common/Footer';
 import ClientRegister from './Client/ClientRegister';
 import AdminDashBoard from './ADMIN/Admindashboard/AdminDashBoard';
+import SpRegister from './Service_Provider/SpRegister';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/client-register' element={<ClientRegister />} />
         <Route path='/admin-dashboard' element={<AdminDashBoard/>} />
+        <Route path='/service-provider-register' element={<SpRegister/>} />
       </Routes>
       <Footer />
     </div>
