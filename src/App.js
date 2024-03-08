@@ -6,6 +6,7 @@ import Footer from './Common/Footer';
 import ClientRegister from './Client/ClientRegister';
 import AdminDashBoard from './ADMIN/Admindashboard/AdminDashBoard';
 import SpRegister from './Service_Provider/SpRegister';
+import LeaveRequest from './ADMIN/LeaveRequest/LeaveRequest';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/client-register' element={<ClientRegister />} />
         <Route path='/admin-dashboard' element={<AdminDashBoard/>} />
         <Route path='/service-provider-register' element={<SpRegister/>} />
+        <Route path='/leave-request' element={<LeaveRequest/>} />
       </Routes>
       <Footer />
     </div>

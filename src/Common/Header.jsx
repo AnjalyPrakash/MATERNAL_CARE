@@ -41,7 +41,6 @@ function Header() {
                     </Col>
                     <Col md={4} className=' d-flex justify-content-end'>
                         <button className='btn' onClick={handleShowRight}><h1 className=' text-dark me-2 '><i class="fa-solid fa-circle-user"></i></h1></button>
-
                     </Col>
                 </Row>
             </div>
@@ -51,8 +50,13 @@ function Header() {
                 <Offcanvas.Header className='side_bar bg-dark' closeButton>
                     <Offcanvas.Title >Left Offcanvas</Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body className='side_bar bg-dark'>
-                    This offcanvas comes from the left side.
+                <Offcanvas.Body className='side_bar bg-dark text-white'>
+                    <h5>Attendence</h5>
+                    <h5>Booking</h5>
+                    <h5>Leave Request</h5>
+                    <h5>Feedbacks</h5>
+                    <h5>Chats</h5>
+                    <h5>Services</h5>
                 </Offcanvas.Body>
             </Offcanvas>
 
