@@ -7,6 +7,7 @@ import '../ADMIN/Admindashboard/AdminDashBoard.css'
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import '../Common/Header';
+import { Link } from 'react-router-dom';
 
 function Header() {
     const [showLeft, setShowLeft] = useState(false);
@@ -52,8 +53,8 @@ function Header() {
                 </Offcanvas.Header>
                 <Offcanvas.Body className='side_bar bg-dark text-white'>
                     <h5>Attendence</h5>
-                    <h5>Booking</h5>
-                    <h5>Leave Request</h5>
+                    <Link to={'/bookings'} style={{textDecoration:'none',color:'yellowgreen'}}><h5>Booking</h5></Link>
+                    <Link to={'/leave-request'} style={{textDecoration:'none',color:'yellowgreen'}}><h5>Leave Request</h5></Link>
                     <h5>Feedbacks</h5>
                     <h5>Chats</h5>
                     <h5>Services</h5>
